@@ -3,7 +3,8 @@
 Sistema de cadastro de empresas e participantes vinculados as empresas.
 
 
-#Ferramentas Utilizadas
+# Ferramentas Utilizadas
+
 - Wampserver
 - PHP
 - MySQL
@@ -12,7 +13,8 @@ Sistema de cadastro de empresas e participantes vinculados as empresas.
 - Twig
 
 
-#Iniciando
+# Iniciando
+
 1° - Será necessário realizar a instalação do WampServer.
 
 2° - Baixar os arquivos do repositório: git clone https://github.com/MaschDY/gerenciador-campanhas
