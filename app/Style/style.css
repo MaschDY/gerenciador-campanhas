@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DDD9CE;
+}
+
+.container {
+    width: 1000px;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-left: 2px solid #CCC;
+}
+
+.menu {
+    padding: 20px 25px;
+    border-bottom: 3px solid #CCC;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font: 20px Arial;
+}
+
+.menu a:hover {
+    color: #777;
+}
+
+.content {
+    height: 100vh;
+    padding: 20px 25px;
+}
+
+.content h1 {
+    font: 25px Arial;
+}
+
+.content h3, a {
+    font: Arial;
+    color: #333;
+    text-decoration: none;
+}
+
+.content-participantes {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 12%;
+}
+
+.content-participantes article {
+    background-color: #CCC;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content-empresas {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 12%;
+}
+
+.content-empresas article {
+    background-color: #CCC;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #444;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #777;
+}

@@ -1,0 +1,18 @@
+<h1>Alterar Participante</h1><br><br>
+
+<form method="POST" action="?page=participante&method=update">
+    <span>CPF</span><br>
+    <input type="text" name="cpf" value="{{cpf}}"><br><br>
+    <span>Nome</span><br>
+    <input type="text" name="nome" value="{{nome}}"><br><br>
+    <span>E-mail</span><br>
+    <input type="text" name="email" value="{{email}}"><br><br>
+    <span>Data de Nascimento</span><br>
+    <input type="text" name="data_nascimento" value="{{data_nascimento}}"><br><br>
+    <span>CNPJ da Empresa</span><br>
+    <input type="text" name="empresa_cnpj" value="{{empresa_cnpj}}"><br><br>
+    
+    <input type="hidden" name="id" value="{{cpf}}">
+
+    <input type="submit" value="Alterar" class="button">
+</form>

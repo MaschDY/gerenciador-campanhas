@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/Style/style.css">
+
+    <title>Gerenciador de Campanhas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <header>
+                <nav>
+                    <a href="/">Home</a> |
+                    <a href="/?page=empresa&method=create">Cadastrar Empresa</a> |
+                    <a href="/?page=participante&method=create">Cadastrar Participante</a>
+                </nav>
+            </header>
+        </div>
+
+        <div class="content">
+            {{dynamic_area}}
+        </div>
+    </div>
+</body>
+</html>

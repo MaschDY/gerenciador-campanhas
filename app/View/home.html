@@ -1,0 +1,32 @@
+<section>
+    <div class="content-participantes">
+        <h1>Participantes Cadastrados</h1>
+        {% for participante in participantes %}
+            <article>
+                <a href="/?page=participante&cpf={{participante.cpf}}">
+                    <span>
+                        <h3>{{participante.nome}}</h3>
+                    </span>
+                    <p>{{participante.cpf}}</p>
+                    <p>{{participante.email}}</p>
+                    <p>{{participante.data_nascimento}}</p>
+                    <p>{{participante.empresa_cnpj}}</p>
+                </a>
+            </article>
+        {% endfor %}
+    </div>
+
+    <div class="content-empresas">
+        <h1>Empresas Cadastradas</h1>
+        {% for empresa in empresas %}
+        <article>
+            <a href="/?page=empresa&cnpj={{empresa.cnpj}}">
+                <span>
+                    <h3>{{empresa.razao_social}}</h3>
+                </span>
+                <p>{{empresa.cnpj}}</p>
+            </a>
+        </article>
+        {% endfor %}
+    </div>
+</section>
